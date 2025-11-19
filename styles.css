@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(251, 255, 238);
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #88afff;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  width: 350px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #cddfff;
+}
+
+#view-basket {
+  background-color: #88afff;
+  border: 2px solid #000;
+  color: #000;
+
+}
+
+#view-basket:hover {
+  background-color: #c7c7c7;
+}
